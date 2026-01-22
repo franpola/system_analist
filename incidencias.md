@@ -3,8 +3,10 @@ Perdida de conectividad con rpae en pre
 
 Comprobamos que el servidor escucha en el puerto 443 a través de la vip
 
+```
 Microsoft Telnet> open 10.xxx.xxx.69 443
 Connected ^^
+```
 Si esa prueba es correcta la siguiente es intentar abrir la página con las URLs de endpoint publicadas.
 
 Si se prueba en el navegador solo el dominio , aunque el servidor este arriba te puede devolver un 404.
