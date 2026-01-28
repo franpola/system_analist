@@ -1,4 +1,4 @@
-# Tipos de Certificados disponibles para solicitar desde el Portal Funciona
+# Tipos de Certificados de expediente personal
 
 - Certificado de Trienios y Servicios reconocidos/previos
   
@@ -19,3 +19,14 @@
 - Certificado de Licencias
 - Certificado de Sanciones
 - Certificado de modificación de jornada
+
+# Visor de trazas
+```
+SELECT *
+FROM RCPP.MTRESMON
+WHERE CDPROCESO='PROCCERTE'
+ORDER BY FEPROC DESC;
+```
+# Gestión de Solicitudes (RPAE)
+
+- Certificados de Expediente personal -> Gestión de Solicitudes
