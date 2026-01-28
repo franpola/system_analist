@@ -3,3 +3,11 @@ Cuando los datos que Funciona muestra a los usuarios no concuerdan con los reale
 
 En los datos relativos al usuario y su perfil, existen triggers en la BBDD que envian la actualizacin a la tabla DIRAGE (creada en un formato especifico para Autentica).
 Esos triggers pueden estar condicionados a varios factores , como una situacion de cese, etc..
+
+La consulta a la tabla DIRAGE para ver lo que tiene sería:
+
+```
+SELECT *
+FROM RCPP.DIRAGE
+WHERE CDDNI='47017210'
+```
