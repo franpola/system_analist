@@ -1,3 +1,7 @@
+# Gestión de Solicitudes (RPAE)
+
+- Certificados de Expediente personal -> Gestión de Solicitudes
+
 # Tipos de Certificados de expediente personal
 
 - Certificado de Trienios y Servicios reconocidos/previos
@@ -20,13 +24,11 @@
 - Certificado de Sanciones
 - Certificado de modificación de jornada
 
-# Visor de trazas
+# Visor de trazas MTRESMON
 ```
 SELECT *
 FROM RCPP.MTRESMON
 WHERE CDPROCESO='PROCCERTE'
 ORDER BY FEPROC DESC;
 ```
-# Gestión de Solicitudes (RPAE)
 
-- Certificados de Expediente personal -> Gestión de Solicitudes
